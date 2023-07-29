@@ -1,5 +1,5 @@
 let peso = parseInt (prompt("Ingrese su peso"));
-let estatura = parseInt (prompt("Ingrese su estatura"));
+let estatura = parseFloat (prompt("Ingrese su estatura"));
 
 function imc (peso, estatura) {
     let resultado = peso /(estatura * estatura);
