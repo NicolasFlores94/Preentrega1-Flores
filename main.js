@@ -5,6 +5,9 @@ function saludar () {
 }
 saludar ();
 
+let carrito = [];
+
+//Array de productos
 let catalogo = [
     {id: 1, nombre: "zapatos", precio:15000},
     {id: 2, nombre: "jean", precio:10000},
@@ -28,3 +31,4 @@ if (producto) {
 
 let baratos = catalogo.filter((item) => item.precio < 12000);
 console.log (filtro);
+
